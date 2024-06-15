@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Train Website - Login</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-image: url('train1.jpg');
+      background-size: cover;
+      background-position: center;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .login-container {
+     backdrop-filter: blur(4.5px) ;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      width: 300px;
+      text-align: center;
+      margin-right: 720px;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    label {
+      display: block;
+      margin: 10px 0 5px;
+      color: #555;
+    }
+
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #007BFF;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    .signup-link {
+      margin-top: 10px;
+    }
+
+    .signup-link a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+
+    .signup-link a:hover {
+      text-decoration: none;
+      color: white;
+    }
+
+    .logo {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+      background-size: cover;
+      height: 140px;
+    }
+
+    button a{
+      text-decoration: none;
+      color:white;
+    }
+    p{
+      font-weight:bold;
+    
+    }
+
+    
+  </style>
+</head>
+<body>
+    <div  class="page-flow">
+        <div class="login-container">
+            <img src="indian-government-logo.png" alt="Train Logo" class="logo">
+            <h2>Welcome to Rail-Rath</h2>
+            <form>
+              <label for="username"><b>Username:</b></label>
+              <input type="text" id="username" name="username" required>
+        
+              <label for="password"><b>Password:</b></label>
+              <input type="password" id="password" name="password" required>
+        
+              <button type="submit" ><a href="homapage.html">Login</a>
+              </button>
+
+            </form>
+        
+            <div class="signup-link">
+              <p>Don't have an account?<a href="signUp.html">Sign up here</a></p>
+            </div>
+          </div>
+        
+        
+              <div class="banner-icons">
+                <marquee >
+                   <p> You can check here your train tickets availibility, booking status & PNR status,Train Between stations.</p>
+                </marquee>
+              </div>
+    </div>
+
+  
+
+</body>
+</html>

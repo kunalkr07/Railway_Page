@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-image: url('pexels-daniel-putzer-633409.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.container{
+    height:65vh;
+    width:400px;
+    background-color:#ffffff88;;
+    margin-left:420px;
+    text-align:center;
+    padding:40px;
+    border-radius: 14px;
+    backdrop-filter: blur(8px);
+    box-shadow: 1px 1px 4px 4px white;
+}
+header{
+    text-align: center;
+    color:white;
+    margin-top:30px;
+    margin-bottom:20px;
+    margin-left:35px;
+}
+
+input{
+    height:30px;
+    width:250px;
+    border-radius:8px;
+    border:2px solid darkslategray;
+
+}
+
+label{
+    font-size:20px;
+    margin:10px;
+}
+
+button{
+    height:30px;
+    width:100px;
+    margin-top:50px;
+    border-radius:6px;
+}
+
+button a{
+    text-decoration: none;
+    font-size:16px;
+    font-weight: bold;
+    color:rgb(201, 13, 13);
+}
+
+button:hover{
+    background-color: blue;
+    color:white;
+}
+
+select{
+    height:30px;
+    border-radius: 8px;
+}
+
+.back{
+    text-align: center;
+}
+
+.back a{
+    text-decoration: none;
+    font-size: 20px;
+    color:red;
+}
+
+.back a:hover{
+    color:darkslategray;
+}
+

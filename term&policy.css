@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    height:0;
+}
+
+
+.container{
+    /* background-image: url("one.jpg");
+    background-size:cover; */
+    background-color: #355070;
+    height:540px;
+   max-width:100%;
+    padding:60px;
+    border:none;
+   
+    
+}
+nav{
+    height:40px;
+    width:100%;
+}
+.policy{
+    text-align:center;
+}
+
+.head1{
+    height:40px;
+    width:100%;
+    margin:2px;
+}
+
+.paragraph{
+    height:150px;
+    width:100%;
+    padding:20px;
+    
+}
+
+.paragraph1{
+    height:150px;
+    width:100%;
+    padding:20px;
+}
+
+
+li{
+    margin:20px;
+    font-size:18px;
+}
+
+.one{
+    font-weight: bold;
+}
+
+
+
+
+
+

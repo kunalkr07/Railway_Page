@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    height:0;
+}
+body{
+    background-image: url("one.jpg");
+    background-size: cover;
+}
+
+
+.container{
+    height:250px;
+    width:100%;
+    margin-top:50px;
+   
+}
+
+.head1{
+    text-align:center;
+    height: 40px;
+    width: 100%;
+}
+
+
+li{
+    margin-top:30px;;
+    margin:30px;
+    font-size:18px;
+    
+}
+.para1{
+    padding:20px;
+}
+
+.site{
+    font-size:20px;
+    font-weight: bold;
+}
+
+.container2{
+    height:250px;
+    width:100%;
+   
+}
+
+.head2{
+    margin-top:20px;
+}

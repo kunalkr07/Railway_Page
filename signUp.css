@@ -1,0 +1,63 @@
+body {
+    background-image: url("sign\ \(2\).jpg");
+    background-size:cover;
+}
+
+h1 {
+    text-align: center;
+    color:white;
+    margin-top:25px;
+}
+
+form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 1px 1px 2px 2px white;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.539);
+    backdrop-filter: blur(1.5px);
+    margin-top: 100px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size:20px;     
+    text-align:center;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    margin-left:160px;
+}
+
+button a{
+    text-decoration: none;
+    color:white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+i{
+    margin-right:2px;
+}

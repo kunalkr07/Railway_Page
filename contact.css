@@ -1,0 +1,20 @@
+
+body{
+    background-image: url("hole.jpg");
+    background-size: cover;
+}
+.container{
+    height:270px;
+    width:600px;
+    background-color: rgba(255, 255, 255, 0.354);
+    margin-top:240px;
+    margin-left:340px;
+    text-align:center;
+    backdrop-filter: blur(6px);
+    border-radius:6px;
+    box-shadow: 1px 1px 4px 4px white;
+    
+}
+ul li{
+    list-style: none;
+}

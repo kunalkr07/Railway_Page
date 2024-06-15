@@ -1,0 +1,32 @@
+
+.container1{
+    height:200px;
+    width:300px;
+   margin-left: 500px;
+   text-align: center;
+}
+
+.container2{
+    height:700px;
+    background-color: darkolivegreen;
+    text-align:center;
+    padding:40px;
+    max-width:100%;
+    background-image: url("jeremy.jpg");
+    background-size:cover;
+    color:white;
+
+}
+.container3{
+    height:700px;
+    background-color: darkolivegreen;
+    text-align:center;
+    padding:40px;
+    max-width:100%;
+    background-image: url("autum.jpg");
+    background-size:cover;
+    color:white;
+}
+
+
+

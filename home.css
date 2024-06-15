@@ -1,0 +1,49 @@
+body{
+    background-image: url("black.jpg");
+    background-size: cover;
+}
+
+
+.name h2{
+    color:white;
+    margin-right:20px;
+}
+p{
+    color:white;
+}
+
+.logo{
+    height:70px;
+    max-width:100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo-icon{
+    height:70px;
+    width:100px;
+    background-image: url("Indian-Railways.png");
+    background-size:100% 100%;
+}
+
+.container-box{
+    height:300px;
+    max-width:100%;
+    display: flex;
+    justify-content:center;
+}
+
+video{
+    height:300px;
+    box-shadow: 1px 1px 2px 2px white;
+    border-radius:4px solid transparent;
+
+}
+
+.container-para{
+    height:200px;
+    max-width:100%;
+    text-align: center;
+    font-size:19px;;
+}
